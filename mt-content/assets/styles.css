@@ -3,6 +3,11 @@ html {
     height: 100%;
 }
 
+@font-face {
+    font-family: 'TrajanProRegular';
+    src:url(../../mt-includes/TrajanPro/TrajanPro-Regular.otf);
+}
+
 body {
     position: relative;
     overflow-x: hidden;
@@ -2677,7 +2682,7 @@ body {
 .moto-text_system_2 {
     font-weight: 400;
     font-style: normal;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'TrajanProRegular', sans-serif;
     color: #fff;
     font-size: 50px;
     line-height: 1.2;
